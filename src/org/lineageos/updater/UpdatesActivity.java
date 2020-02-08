@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2017 The CygnusOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater;
+package org.cygnusos.updater;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -52,14 +52,14 @@ import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.json.JSONException;
-import org.lineageos.updater.controller.UpdaterController;
-import org.lineageos.updater.controller.UpdaterService;
-import org.lineageos.updater.download.DownloadClient;
-import org.lineageos.updater.misc.BuildInfoUtils;
-import org.lineageos.updater.misc.Constants;
-import org.lineageos.updater.misc.StringGenerator;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.UpdateInfo;
+import org.cygnusos.updater.controller.UpdaterController;
+import org.cygnusos.updater.controller.UpdaterService;
+import org.cygnusos.updater.download.DownloadClient;
+import org.cygnusos.updater.misc.BuildInfoUtils;
+import org.cygnusos.updater.misc.Constants;
+import org.cygnusos.updater.misc.StringGenerator;
+import org.cygnusos.updater.misc.Utils;
+import org.cygnusos.updater.model.UpdateInfo;
 
 import java.io.File;
 import java.io.IOException;

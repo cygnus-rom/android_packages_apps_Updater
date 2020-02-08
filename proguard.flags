@@ -1,1 +1,1 @@
--keep class org.lineageos.updater.ui.FlingBehavior { *; }
+-keep class org.cygnusos.updater.ui.FlingBehavior { *; }

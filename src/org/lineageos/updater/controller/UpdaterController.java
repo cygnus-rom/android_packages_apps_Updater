@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2017 The CygnusOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater.controller;
+package org.cygnusos.updater.controller;
 
 import android.content.Context;
 import android.content.Intent;
@@ -24,12 +24,12 @@ import android.util.Log;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.lineageos.updater.UpdatesDbHelper;
-import org.lineageos.updater.download.DownloadClient;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.Update;
-import org.lineageos.updater.model.UpdateInfo;
-import org.lineageos.updater.model.UpdateStatus;
+import org.cygnusos.updater.UpdatesDbHelper;
+import org.cygnusos.updater.download.DownloadClient;
+import org.cygnusos.updater.misc.Utils;
+import org.cygnusos.updater.model.Update;
+import org.cygnusos.updater.model.UpdateInfo;
+import org.cygnusos.updater.model.UpdateStatus;
 
 import java.io.File;
 import java.io.IOException;

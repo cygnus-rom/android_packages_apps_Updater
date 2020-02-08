@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2017 The CygnusOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.lineageos.updater.controller;
+package org.cygnusos.updater.controller;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -32,14 +32,14 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import org.lineageos.updater.R;
-import org.lineageos.updater.UpdaterReceiver;
-import org.lineageos.updater.UpdatesActivity;
-import org.lineageos.updater.misc.BuildInfoUtils;
-import org.lineageos.updater.misc.StringGenerator;
-import org.lineageos.updater.misc.Utils;
-import org.lineageos.updater.model.UpdateInfo;
-import org.lineageos.updater.model.UpdateStatus;
+import org.cygnusos.updater.R;
+import org.cygnusos.updater.UpdaterReceiver;
+import org.cygnusos.updater.UpdatesActivity;
+import org.cygnusos.updater.misc.BuildInfoUtils;
+import org.cygnusos.updater.misc.StringGenerator;
+import org.cygnusos.updater.misc.Utils;
+import org.cygnusos.updater.model.UpdateInfo;
+import org.cygnusos.updater.model.UpdateStatus;
 
 import java.io.IOException;
 import java.text.DateFormat;
